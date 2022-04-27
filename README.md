@@ -2,6 +2,7 @@
 Tento script slouží k získání volebních dat (kód obce, název obce, voliči v seznamu, vydané obálky, platné hlasy a kandidující strany) 
 ze stránky https://volby.cz/pls/ps2017/ps3?xjazyk=CZ, kde si vybereme příslušný volební okrsek
 (např. Liberec - https://volby.cz/pls/ps2017/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5103) a získané data zkopíruje do csv souboru. 
+Níže na obrázku je zobrazen část csv souboru. Pokud chcete je ve složce plný dokument z okresu Liberec
 
 ![obrazek](https://user-images.githubusercontent.com/99678439/165470067-25e6d0a4-e9a1-4907-9863-1c535e831ce1.png)
 
