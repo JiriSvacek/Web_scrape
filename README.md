@@ -1,4 +1,4 @@
-## web_scrape.py 
+## Voting web scraper
 This script is scraping voting data (code of city, name of city, number of votes,issued envelopes, valid votes and candidate parties) from page https://volby.cz/pls/ps2017/ps3?xjazyk=CZ, where we choose respective district (for example [Liberec](https://volby.cz/pls/ps2017/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5103)) and scraped data are pushed to csv file
 
 ![obrazek](https://user-images.githubusercontent.com/99678439/165470067-25e6d0a4-e9a1-4907-9863-1c535e831ce1.png)
