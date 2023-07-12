@@ -1,19 +1,16 @@
 ## web_scrape.py 
-Tento script slouží k získání volebních dat (kód obce, název obce, voliči v seznamu, vydané obálky, platné hlasy a kandidující strany) 
-ze stránky https://volby.cz/pls/ps2017/ps3?xjazyk=CZ, kde si vybereme příslušný volební okrsek
-(např. Liberec - https://volby.cz/pls/ps2017/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5103) a získané data zkopíruje do csv souboru. 
-Níže na obrázku je zobrazen část csv souboru. Pokud chcete je ve složce plný dokument z okresu Liberec
+This script is scraping voting data (code of city, name of city, number of votes,issued envelopes, valid votes and candidate parties) from page https://volby.cz/pls/ps2017/ps3?xjazyk=CZ, where we choose respective district (for example [Liberec](https://volby.cz/pls/ps2017/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5103)) and scraped data are pushed to csv file
 
 ![obrazek](https://user-images.githubusercontent.com/99678439/165470067-25e6d0a4-e9a1-4907-9863-1c535e831ce1.png)
 
-Odkaz zadáme jako první argument do terminálu za názvem scriptu, druhým argumentem zadáme název csv souboru, 
-do kterého chceme data zkopírovat. Nezaleží jestli csv soubor bude mít příponu, popřípadě si ji script automaticky přidá. Důležite je je vložit oba argumenty s uvozovkami.
-Viz příklad dole
+We enter the link as the first argument in the terminal after the name of the script, as the second argument we enter the name of the csv file,
+to which we want to copy the data. It does not matter if the csv will have an extension, the script will automatically add suffix. It is important to enclose both arguments with quotation marks.
+See example below
 ```
 web_scrape.py "https://volby.cz/pls/ps2017/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5103" "liberec.csv"  
 ```
 
-K funkci budeme potřebovat několik knihoven jejich instalace se provádí příkazem v terminálu: 
+We will need several libraries for the function, their installation is done by a command in the terminal: 
 ```
 pip install -r requirements.txt 
 ``` 
