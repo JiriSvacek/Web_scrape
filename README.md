@@ -10,7 +10,7 @@ See example below
 web_scrape.py "https://volby.cz/pls/ps2017/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5103" "liberec.csv"  
 ```
 
-We will need several libraries for the function, their installation is done by a command in the terminal: 
+We will need several libraries for the proper function, it is possible to install additional libraries by executing command below in terminal: 
 ```
 pip install -r requirements.txt 
 ``` 
